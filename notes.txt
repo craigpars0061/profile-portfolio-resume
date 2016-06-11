@@ -1,0 +1,8 @@
+installing requirements:
+pip install -r requirements.txt
+after getting this error
+    Error: pg_config executable not found.
+sudo apt-get install libpq-dev
+then I could do the following:
+pip install -r requirements.txt
+
