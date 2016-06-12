@@ -6,3 +6,12 @@ sudo apt-get install libpq-dev
 then I could do the following:
 pip install -r requirements.txt
 
+Saturday June 11th 11:35pm
+Okay I have the simple flask routing system working in python.
+Now I just have to set up a simple Portfolio page with links and the homepage.
+
+I think I'm going to use this:
+https://www.muicss.com/
+
+1: Set up the main page as a resume.
+2: setup up the portfolio page then a demo of something done in python.

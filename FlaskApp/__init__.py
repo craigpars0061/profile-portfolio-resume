@@ -8,11 +8,10 @@ app = Flask(__name__)
 def startMain():
     return render_template("main.html")
    
-# This seems to be the simple routing system.
-
-@app.route('/dashboard/')
-def dashboard():
-    return render_template("dashboard.html")
+# The portfolio page.
+@app.route('/portfolio/')
+def portfolio():
+    return render_template("portfolio.html")
 
 if __name__ == "__main__":
     app.run()
