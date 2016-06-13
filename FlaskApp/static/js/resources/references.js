@@ -11,7 +11,7 @@ var blockProto = document.createElement("div")
 blockProto.className = "gf-block"
 
 var innerBlockProto = document.createElement("div")
-innerBlockProto.className = "gf-block--inner"
+innerBlockProto.className = "z-depth-2 gf-block--inner"
 
 var innerBlockSpacer = document.createElement("div")
 innerBlockSpacer.className = "gf-block--inner--spacer"
