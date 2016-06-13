@@ -15,3 +15,7 @@ https://www.muicss.com/
 
 1: Set up the main page as a resume.
 2: setup up the portfolio page then a demo of something done in python.
+
+Sunday Jun 12th 2016: 4:30pm
+I've added a basic resume. I'll have to make it look a lot better later on.
+I want to keep the resume very brief.
