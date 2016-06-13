@@ -19,3 +19,11 @@ https://www.muicss.com/
 Sunday Jun 12th 2016: 4:30pm
 I've added a basic resume. I'll have to make it look a lot better later on.
 I want to keep the resume very brief.
+
+same day: 9:06
+I want to look into this css framework when I have time.
+http://getskeleton.com/
+
+For now it seems I've finished my portfolio and homepage.
+I really do need more information on that resume or portfolio for it to be effective.
+But I think from now on I'll be updating more of my portfolio.
