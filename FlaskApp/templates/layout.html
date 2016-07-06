@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- load MUI -->
   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
-  <link href="{{ url_for('static', filename='css/materialize.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/materialize.min.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -18,8 +19,14 @@
   <nav class="grey darken-3" role="navigation">
     <div class="nav-wrapper container left">
       <ul class="hide-on-med-and-down">
-        <li {% if request.path=='/' %} class="active" {% endif %}><a href="{{ request.url_root }}"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-        <li {% if request.path=='/portfolio/' %} class="active" {% endif %}><a href="{{ request.url_root }}portfolio">Portfolio</a></li>
+        <li {% if request.path=='/' %} class="active" {% endif %}>
+          <a href="{{ request.url_root }}">
+            <i class="fa fa-home" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li {% if request.path=='/portfolio/' %} class="active" {% endif %}>
+          <a href="{{ request.url_root }}portfolio">Portfolio</a>
+        </li>
       </ul>
     </div>
   </nav>
