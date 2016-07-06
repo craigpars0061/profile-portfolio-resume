@@ -97,7 +97,9 @@ requirejs(["../static/js/pendulum/pendulumGrid"], function() {
         }
 
         // if squareMode is on, make the width & height of the blocks equal
-        if (pendulum_styles.squareMode) squareify()
+        if (pendulum_styles.squareMode) {
+            squareify();
+        }
     })
 
 })
