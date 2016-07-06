@@ -18,7 +18,7 @@
   <nav class="grey darken-3" role="navigation">
     <div class="nav-wrapper container left">
       <ul class="hide-on-med-and-down">
-        <li {% if request.path=='/' %} class="active" {% endif %}><a href="{{ request.url_root }}">Home</a></li>
+        <li {% if request.path=='/' %} class="active" {% endif %}><a href="{{ request.url_root }}"><i class="fa fa-home" aria-hidden="true"></i></a></li>
         <li {% if request.path=='/portfolio/' %} class="active" {% endif %}><a href="{{ request.url_root }}portfolio">Portfolio</a></li>
       </ul>
     </div>
@@ -26,6 +26,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   <script src="{{ url_for('static', filename='js/materialize.min.js') }}"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js" type="text/javascript"></script>
+  <script src="https://use.fontawesome.com/c00a63254e.js"></script>
+
   <div id="content-wrapper">
     <div class="row">
       <div class="col m2">
