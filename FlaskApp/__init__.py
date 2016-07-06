@@ -9,8 +9,8 @@ app.config['DEBUG'] = True
 def startMain():
     return render_template("main.html")
 
-# The portfolio page.
-@app.route('/portfolio/')
+# The pendulum photography portfolio page.
+@app.route('/pendulum/')
 def portfolio():
     return render_template("portfolio.html")
 
