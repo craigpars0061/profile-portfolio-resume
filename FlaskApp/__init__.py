@@ -12,7 +12,7 @@ def startMain():
 # The pendulum photography portfolio page.
 @app.route('/pendulum/')
 def portfolio():
-    return render_template("portfolio.html")
+    return render_template("pendulum.html")
 
 if __name__ == "__main__":
     app.run()
